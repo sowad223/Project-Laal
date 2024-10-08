@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+    <h2>Volunteer List</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Skills</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for volunteer in volunteers %}
+            <tr>
+                <td>{{ volunteer[1] }}</td>
+                <td>{{ volunteer[2] }}</td>
+                <td>{{ volunteer[3] }}</td>
+                <td>{{ volunteer[4] }}</td>
+                <td>
+                    <a href="/assign_task/{{ volunteer[0] }}" class="btn btn-info">Assign Task</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <a href="/logout" class="btn btn-danger">Logout</a>
+</div>
+</body>
+</html>

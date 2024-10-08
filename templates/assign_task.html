@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Assign Task</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+    <h2>Assign Task to Volunteer ID: {{ volunteer_id }}</h2>
+    <form method="post">
+        <div class="form-group">
+            <label>Task</label>
+            <input type="text" class="form-control" name="Task" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Assign Task</button>
+    </form>
+    <a href="/admin_dashboard" class="btn btn-secondary">Back to Dashboard</a>
+</div>
+</body>
+</html>

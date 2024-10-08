@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Volunteer Dashboard</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+    <h2>Your Assigned Tasks</h2>
+    <ul class="list-group">
+        {% for task in tasks %}
+        <li class="list-group-item">{{ task[2] }}</li>
+        {% else %}
+        <li class="list-group-item">No tasks assigned.</li>
+        {% endfor %}
+    </ul>
+    <a href="/logout" class="btn btn-danger">Logout</a>
+</div>
+</body>
+</html>
