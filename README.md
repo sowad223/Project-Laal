@@ -13,7 +13,7 @@ This project is a Flask-based web application designed to handle donations, volu
 ## Technologies Used
 
 - **Flask:** Backend framework
-- **SQLite:** Database for storing donations, volunteers, admin, and tasks.
+- **SQLite:** Database for storing donations, volunteers, admin, and tasks. but later used mysql as vercel doesn't support sqlite.
 - **HTML/CSS/Bootstrap:** Frontend UI components
 - **bKash & Nagad Gateway Integration:** For handling donations
 
