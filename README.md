@@ -44,5 +44,7 @@ Payment gateway integration for bKash and Nagad: Full integration with these ser
 Enhanced task management: Assigning multiple tasks or setting deadlines for volunteers.
 
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/sowad223/Project-Laal/blob/main/LICENSE.md) file for details.
+
