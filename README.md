@@ -43,4 +43,6 @@ Future Enhancements
 Payment gateway integration for bKash and Nagad: Full integration with these services for seamless payments.
 Enhanced task management: Assigning multiple tasks or setting deadlines for volunteers.
 
+
 License
+This project is licensed under the MIT License - see the LICENSE file for details.
